@@ -61,7 +61,7 @@ nav.addEventListener('click', (e: Event) => {
 
     document.title = (
       inHome ? homeTitle : routeName
-    ) + ' - ytify';
+    ) + ' - Shade Music Premium';
 
   }
   showSection(anchor.id);

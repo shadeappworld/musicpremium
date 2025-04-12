@@ -23,8 +23,8 @@ export default defineConfig(({ command }) => ({
     solidPlugin(),
     VitePWA({
       manifest: {
-        "short_name": "Ytify",
-        "name": "Listen with ytify",
+        "short_name": "Shade Music",
+        "name": "Shade Music Premium",
         "description": "32kb/s to 128kb/s youtube audio streaming website. Copy a youtube video link and listen to it as an audio totally free.",
         "icons": [
           {

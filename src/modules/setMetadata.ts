@@ -56,7 +56,7 @@ export async function setMetaData(data: CollectionItem) {
 
 
   if (location.pathname === '/')
-    document.title = data.title + ' - ytify';
+    document.title = data.title + ' - Shade Music Premium';
 
 
   if ('mediaSession' in navigator) {

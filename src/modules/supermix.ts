@@ -83,6 +83,6 @@ export default async function(ids: string[]) {
     location.origin + location.pathname + '?supermix=' + ids.join('+')
   );
 
-  document.title = 'Supermix - ytify';
+  document.title = 'Supermix - Shade Music Premium';
 }
 

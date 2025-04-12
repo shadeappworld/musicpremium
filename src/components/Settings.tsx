@@ -65,7 +65,7 @@ export default function() {
     <>
       <div>
         <b id="ytifyIconContainer">
-          <p>ytify {Version}</p>
+          <p>Shade Music Premium {Version}</p>
         </b>
 
         <ToggleSwitch
@@ -128,7 +128,7 @@ export default function() {
               target.value = savedLinkHost;
           }}
         >
-          <option value="https://ytify.pp.ua">ytify</option>
+          <option value="https://ytify.pp.ua">Shade Music Premium</option>
           <option value="https://youtube.com">YouTube</option>
           <option value="https://piped.video">Piped</option>
           <option value="https://inv.nadeko.net">Invidious</option>
@@ -380,7 +380,7 @@ export default function() {
                   });
               }
 
-              const termsAccepted = confirm('Data will be automatically deleted after one week of inactivity.\nytify is not responsible for data loss.\n\nI Understand');
+              const termsAccepted = confirm('Data will be automatically deleted after one week of inactivity.\nShade Music Premium is not responsible for data loss.\n\nI Understand');
               if (termsAccepted) {
                 const username = prompt('Enter Username :');
                 if (username) {
