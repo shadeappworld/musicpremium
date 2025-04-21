@@ -128,8 +128,8 @@ export default function() {
               target.value = savedLinkHost;
           }}
         >
-          <option value="https://ytify.pp.ua">Shade Music Premium</option>
-          <option value="https://youtube.com">YouTube</option>
+          <option value="https://shademusic.vercel.app">Shade Music Premium</option>
+          <option value="https://shade-it.vercel.app">Shade It</option>
           <option value="https://piped.video">Piped</option>
           <option value="https://inv.nadeko.net">Invidious</option>
           <option value="https://viewtube.io">ViewTube</option>

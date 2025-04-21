@@ -42,7 +42,7 @@ listBtnsContainer.addEventListener('click', async e => {
     listToQ(listContainer);
 
   else if (btn === openInYtBtn)
-    open(['https://youtube.com', location.origin].includes(store.linkHost) ? ('https://youtube.com' + store.list.url) : hostResolver(store.list.url));
+    open(['https://shade-it.vercel.app', location.origin].includes(store.linkHost) ? ('https://shade-it.vercel.app' + store.list.url) : hostResolver(store.list.url));
 
   else if (btn === subscribeListBtn)
     subscribeList(db);
